@@ -20,3 +20,15 @@ gpgcheck=0
 
 [root@fs2client01 ~]#
 
+[root@fs2client01 ~]# yum repolist
+Loaded plugins: fastestmirror, langpacks
+local.repo                                               | 3.6 kB     00:00
+(1/2): local.repo/group_gz                                 | 155 kB   00:00
+(2/2): local.repo/primary_db                               | 5.3 MB   00:00
+Determining fastest mirrors
+repo id                              repo name                            status
+local.repo                           local.repo                           9,007
+repolist: 9,007
+[root@fs2client01 ~]#
+
+
